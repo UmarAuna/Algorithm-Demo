@@ -1,4 +1,4 @@
-package com.algorithm;
+package com.algorithm.binaryserch;
 
 public class Binary_Search_Iterative {
     public static void main(String [] args){

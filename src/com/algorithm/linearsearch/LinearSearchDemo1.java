@@ -1,11 +1,11 @@
-package com.algorithm;
+package com.algorithm.linearsearch;
 
-public class LinearSearchAlgorithm {
+public class LinearSearchDemo1 {
     public static void main(String []args){
-        int arr[] = { 2, 3, 4, 10, 40 };
-        int x = 10;
+        String[] arr = { "Umar", "Bangis", "Yazid", "Zango", "Samiu" };
+        String x = "Yazid";
 
-        int result = SearchLinear.searchLinear(arr, x);
+        int result = SearchLinearDemo1.searchLinear(arr, x);
         if(result == -1)
             System.out.print("Element is not present in array");
         else
@@ -14,11 +14,11 @@ public class LinearSearchAlgorithm {
 
 }
 
-class SearchLinear {
-    public static int searchLinear(int arr[], int x) {
+class SearchLinearDemo1 {
+    public static int searchLinear(String[] arr ,String x ) {
         int n = arr.length;
         for (int i = 0; i < n; i++) {
-            if (arr[i] == x)
+            if (arr[i].equals(x))
                 return i;
         }
         return -1;

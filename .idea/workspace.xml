@@ -1,7 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b345e6a5-feeb-4659-a770-0a8e0542a6ed" name="Default Changelist" comment="" />
+    <list default="true" id="b345e6a5-feeb-4659-a770-0a8e0542a6ed" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Algorithms Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms Examples.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Binary_Search_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/binaryserch/Binary_Search_Iterative.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/LinearSearchAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/linearsearch/LinearSearchAlgorithm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/LinearSearchDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/linearsearch/LinearSearchDemo1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/binaryserch/Main.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -28,14 +36,23 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1TszkjYFlVZX7xUinhTdo7JH2Rl" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -54,11 +71,11 @@
   </component>
   <component name="RunManager" selected="Application.Demo">
     <configuration name="Binary_Search_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Binary_Search_Iterative" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.binaryserch.Binary_Search_Iterative" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,7 +88,7 @@
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -80,11 +97,11 @@
       </method>
     </configuration>
     <configuration name="LinearSearchAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.LinearSearchAlgorithm" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.linearsearch.LinearSearchAlgorithm" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,11 +110,11 @@
       </method>
     </configuration>
     <configuration name="LinearSearchDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.LinearSearchDemo1" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.linearsearch.LinearSearchDemo1" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -106,7 +123,7 @@
       </method>
     </configuration>
     <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Main" />
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.binaryserch.Main" />
       <module name="Algorithms Examples" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
       <RunnerSettings RunnerId="Run" />
@@ -157,7 +174,7 @@
       <workItem from="1574263737188" duration="1167000" />
       <workItem from="1579620466662" duration="188000" />
       <workItem from="1579620698915" duration="229000" />
-      <workItem from="1579778237390" duration="14775000" />
+      <workItem from="1579778237390" duration="17556000" />
     </task>
     <servers />
   </component>
@@ -205,5 +222,9 @@
       <screen x="0" y="23" width="1680" height="991" />
     </state>
     <state x="519" y="351" key="com.intellij.ide.util.TipDialog/0.23.1680.991@0.23.1680.991" timestamp="1579778238809" />
+    <state x="84" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579883686248">
+      <screen x="0" y="23" width="1680" height="991" />
+    </state>
+    <state x="84" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.991@0.23.1680.991" timestamp="1579883686248" />
   </component>
 </project>
