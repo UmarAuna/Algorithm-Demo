@@ -2,13 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b345e6a5-feeb-4659-a770-0a8e0542a6ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/Demo2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/Print.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/interview1/Interview1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/interview1/Interview2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/interview1/Interview3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Algorithms Examples.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Algorithms Examples.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Binary_Search_Iterative.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/binaryserch/Binary_Search_Iterative.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/LinearSearchAlgorithm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/linearsearch/LinearSearchAlgorithm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/LinearSearchDemo1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/linearsearch/LinearSearchDemo1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/binaryserch/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/BinarySearch.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/BinarySearchIterative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Binary_Search_Iterative.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Demo.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Demo.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/LinearSearchAlgorithm.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/LinearSearchDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Main.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/SearchLinear.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/SearchLinearDemo1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Demo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/Demo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -40,7 +49,9 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1TszkjYFlVZX7xUinhTdo7JH2Rl" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showExcludedFiles" value="true" />
@@ -69,20 +80,7 @@
       <recent name="$PROJECT_DIR$/Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Demo">
-    <configuration name="Binary_Search_Iterative" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.binaryserch.Binary_Search_Iterative" />
-      <module name="Algorithms Examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="Application.Interview3">
     <configuration name="Demo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.Demo" />
       <module name="Algorithms Examples" />
@@ -96,12 +94,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchAlgorithm" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.linearsearch.LinearSearchAlgorithm" />
+    <configuration name="Demo2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.Demo2" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
+          <option name="PATTERN" value="com.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -109,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinearSearchDemo1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.linearsearch.LinearSearchDemo1" />
+    <configuration name="Interview1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.interview1.Interview1" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
+          <option name="PATTERN" value="com.algorithm.interview1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,30 +120,46 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.binaryserch.Main" />
+    <configuration name="Interview2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.interview1.Interview2" />
       <module name="Algorithms Examples" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.interview1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Interview3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.interview1.Interview3" />
+      <module name="Algorithms Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.interview1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Binary_Search_Iterative" />
-      <item itemvalue="Application.LinearSearchAlgorithm" />
-      <item itemvalue="Application.LinearSearchDemo1" />
       <item itemvalue="Application.Demo" />
+      <item itemvalue="Application.Demo2" />
+      <item itemvalue="Application.Interview1" />
+      <item itemvalue="Application.Interview2" />
+      <item itemvalue="Application.Interview3" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Interview3" />
+        <item itemvalue="Application.Interview2" />
+        <item itemvalue="Application.Interview1" />
+        <item itemvalue="Application.Demo2" />
         <item itemvalue="Application.Demo" />
-        <item itemvalue="Application.LinearSearchDemo1" />
-        <item itemvalue="Application.Main" />
-        <item itemvalue="Application.LinearSearchAlgorithm" />
-        <item itemvalue="Application.Binary_Search_Iterative" />
       </list>
     </recent_temporary>
   </component>
@@ -174,7 +188,7 @@
       <workItem from="1574263737188" duration="1167000" />
       <workItem from="1579620466662" duration="188000" />
       <workItem from="1579620698915" duration="229000" />
-      <workItem from="1579778237390" duration="17556000" />
+      <workItem from="1579778237390" duration="24074000" />
     </task>
     <servers />
   </component>
@@ -182,22 +196,22 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="690" height="169" key="GridCell.Tab.0.bottom" timestamp="1579879877073">
+    <state width="694" height="134" key="GridCell.Tab.0.bottom" timestamp="1579904235648">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="690" height="169" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1579879877073" />
-    <state width="690" height="169" key="GridCell.Tab.0.center" timestamp="1579879877073">
+    <state width="694" height="134" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1579904235648" />
+    <state width="694" height="134" key="GridCell.Tab.0.center" timestamp="1579904235647">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="690" height="169" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1579879877073" />
-    <state width="690" height="169" key="GridCell.Tab.0.left" timestamp="1579879877068">
+    <state width="694" height="134" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1579904235647" />
+    <state width="694" height="134" key="GridCell.Tab.0.left" timestamp="1579904235646">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="690" height="169" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1579879877068" />
-    <state width="690" height="169" key="GridCell.Tab.0.right" timestamp="1579879877073">
+    <state width="694" height="134" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1579904235646" />
+    <state width="694" height="134" key="GridCell.Tab.0.right" timestamp="1579904235647">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="690" height="169" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1579879877073" />
+    <state width="694" height="134" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1579904235647" />
     <state width="690" height="169" key="GridCell.Tab.1.bottom" timestamp="1579879877081">
       <screen x="0" y="23" width="1680" height="991" />
     </state>

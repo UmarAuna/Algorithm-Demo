@@ -5,8 +5,10 @@ import java.util.Scanner;
 public class Demo {
     public static void main(String[] args){
         int height;
+        Print print = new Print();
+
         Scanner enter = new Scanner(System.in);
-        System.out.println("Enter any number");
+        print.show("Enter any number");
         height = enter.nextInt();
 
 
@@ -20,7 +22,8 @@ public class Demo {
         list[3] = 4;
 
         for (int i=0; i<4; i++){
-            System.out.println(list[i]);
+            //System.out.println(list[i]);
+            print.show(list[i]);
         }
 
     }
