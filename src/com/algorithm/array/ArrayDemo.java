@@ -1,9 +1,22 @@
-package com.algorithm;
+package com.algorithm.array;
+
+import com.algorithm.Print;
 
 import java.util.ArrayList;
+import java.util.Scanner;
 
-public class Demo4 {
+public class ArrayDemo {
     public static void main (String[] args){
+
+        //Array
+        Scanner guduma = new Scanner(System.in);
+
+        new Print().show("Enter any number");
+        int array = guduma.nextInt();
+
+        for(int i=1; i<=12; i++){
+            new Print().show(array + " * " + i + " = " +array * i);
+        }
         //ArrayList
 
         ArrayList<String> arrayList = new ArrayList<>();
