@@ -2,10 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b345e6a5-feeb-4659-a770-0a8e0542a6ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/linkedlist/LinkedlistDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/Demo7.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/hashtable_hashmap/HashTableDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/stack/StackDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/queue/QueueDemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Demo4.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Demo4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/array/ArrayDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Demo5.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/hashtable_hashmap/HashmapDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -72,13 +75,13 @@
       <recent name="$PROJECT_DIR$/Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.LinkedlistDemo">
-    <configuration name="ArrayDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.array.ArrayDemo" />
+  <component name="RunManager" selected="Application.HashTableDemo">
+    <configuration name="Demo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.Demo7" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.array.*" />
+          <option name="PATTERN" value="com.algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -86,25 +89,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo5" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Demo5" />
+    <configuration name="HashTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.hashtable_hashmap.HashTableDemo" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.array.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo6" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Demo6" />
-      <module name="Algorithms Examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.array.*" />
+          <option name="PATTERN" value="com.algorithm.hashtable_hashmap.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -125,12 +115,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.binaryserch.Main" />
+    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="queue.QueueDemo" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.binaryserch.*" />
+          <option name="PATTERN" value="queue.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.stack.StackDemo" />
+      <module name="Algorithms Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.stack.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -139,19 +142,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.Demo5" />
-      <item itemvalue="Application.Demo6" />
-      <item itemvalue="Application.ArrayDemo" />
       <item itemvalue="Application.LinkedlistDemo" />
+      <item itemvalue="Application.StackDemo" />
+      <item itemvalue="Application.QueueDemo" />
+      <item itemvalue="Application.Demo7" />
+      <item itemvalue="Application.HashTableDemo" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.HashTableDemo" />
+        <item itemvalue="Application.Demo7" />
+        <item itemvalue="Application.QueueDemo" />
+        <item itemvalue="Application.StackDemo" />
         <item itemvalue="Application.LinkedlistDemo" />
-        <item itemvalue="Application.ArrayDemo" />
-        <item itemvalue="Application.Demo6" />
-        <item itemvalue="Application.Demo5" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
@@ -182,7 +185,7 @@
       <workItem from="1579620698915" duration="229000" />
       <workItem from="1579778237390" duration="26348000" />
       <workItem from="1580221392569" duration="15542000" />
-      <workItem from="1581584449877" duration="1802000" />
+      <workItem from="1581584449877" duration="5320000" />
     </task>
     <servers />
   </component>
@@ -202,22 +205,22 @@
       <screen x="0" y="23" width="1680" height="991" />
     </state>
     <state x="223" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.991@0.23.1680.991" timestamp="1581586970236" />
-    <state width="1126" height="223" key="GridCell.Tab.0.bottom" timestamp="1581588003813">
+    <state width="1126" height="223" key="GridCell.Tab.0.bottom" timestamp="1581604228474">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581588003813" />
-    <state width="1126" height="223" key="GridCell.Tab.0.center" timestamp="1581588003812">
+    <state width="1126" height="223" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581604228474" />
+    <state width="1126" height="223" key="GridCell.Tab.0.center" timestamp="1581604228472">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1581588003812" />
-    <state width="1126" height="223" key="GridCell.Tab.0.left" timestamp="1581588003812">
+    <state width="1126" height="223" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1581604228472" />
+    <state width="1126" height="223" key="GridCell.Tab.0.left" timestamp="1581604228471">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1581588003812" />
-    <state width="1126" height="223" key="GridCell.Tab.0.right" timestamp="1581588003813">
+    <state width="1126" height="223" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1581604228471" />
+    <state width="1126" height="223" key="GridCell.Tab.0.right" timestamp="1581604228473">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1581588003813" />
+    <state width="1126" height="223" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1581604228473" />
     <state width="1126" height="217" key="GridCell.Tab.1.bottom" timestamp="1581587971376">
       <screen x="0" y="23" width="1680" height="991" />
     </state>

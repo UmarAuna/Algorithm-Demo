@@ -1,8 +1,10 @@
-package com.algorithm;
+package com.algorithm.hashtable_hashmap;
+
+import com.algorithm.Print;
 
 import java.util.HashMap;
 
-public class Demo5 {
+public class HashmapDemo {
     public static void main(String[] args) {
         HashMap<Double,String> hashMap = new HashMap<>();
 
