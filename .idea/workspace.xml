@@ -2,18 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b345e6a5-feeb-4659-a770-0a8e0542a6ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/Images/TowerOfHanoi.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/BubbleSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/SelectionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/tower_of_hanoi/Hanoi.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/tower_of_hanoi/TowerofHanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/InsertionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/MergeSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Print.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/queue/Queue1$Queue2.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/queue/Queue1.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/queue/QueueDemo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/Print.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/queue/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/queue/QueueDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -80,7 +71,7 @@
       <recent name="$PROJECT_DIR$/Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.SelectionSort">
+  <component name="RunManager" selected="Application.MergeSort">
     <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.sorting_algorithm.BubbleSort" />
       <module name="Algorithms Examples" />
@@ -94,12 +85,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Demo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.Demo7" />
+    <configuration name="InsertionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.sorting_algorithm.InsertionSort" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.*" />
+          <option name="PATTERN" value="com.algorithm.sorting_algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -107,12 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="HashTableDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.hashtable_hashmap.HashTableDemo" />
+    <configuration name="MergeSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.sorting_algorithm.MergeSort" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.hashtable_hashmap.*" />
+          <option name="PATTERN" value="com.algorithm.sorting_algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,19 +138,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo7" />
-      <item itemvalue="Application.HashTableDemo" />
       <item itemvalue="Application.TowerofHanoi" />
       <item itemvalue="Application.BubbleSort" />
       <item itemvalue="Application.SelectionSort" />
+      <item itemvalue="Application.InsertionSort" />
+      <item itemvalue="Application.MergeSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MergeSort" />
+        <item itemvalue="Application.TowerofHanoi" />
+        <item itemvalue="Application.InsertionSort" />
         <item itemvalue="Application.SelectionSort" />
         <item itemvalue="Application.BubbleSort" />
-        <item itemvalue="Application.TowerofHanoi" />
-        <item itemvalue="Application.HashTableDemo" />
-        <item itemvalue="Application.Demo7" />
       </list>
     </recent_temporary>
   </component>
@@ -191,7 +182,7 @@
       <workItem from="1579778237390" duration="26348000" />
       <workItem from="1580221392569" duration="15542000" />
       <workItem from="1581584449877" duration="13178000" />
-      <workItem from="1581674482592" duration="2893000" />
+      <workItem from="1581674482592" duration="8340000" />
     </task>
     <servers />
   </component>
@@ -211,38 +202,38 @@
       <screen x="0" y="23" width="1680" height="991" />
     </state>
     <state x="223" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.991@0.23.1680.991" timestamp="1581586970236" />
-    <state width="674" height="329" key="GridCell.Tab.0.bottom" timestamp="1581681115908">
+    <state width="758" height="329" key="GridCell.Tab.0.bottom" timestamp="1581700718696">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581681115908" />
-    <state width="674" height="329" key="GridCell.Tab.0.center" timestamp="1581681115907">
+    <state width="758" height="329" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581700718696" />
+    <state width="758" height="329" key="GridCell.Tab.0.center" timestamp="1581700718695">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1581681115907" />
-    <state width="674" height="329" key="GridCell.Tab.0.left" timestamp="1581681115907">
+    <state width="758" height="329" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1581700718695" />
+    <state width="758" height="329" key="GridCell.Tab.0.left" timestamp="1581700718695">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1581681115907" />
-    <state width="674" height="329" key="GridCell.Tab.0.right" timestamp="1581681115908">
+    <state width="758" height="329" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1581700718695" />
+    <state width="758" height="329" key="GridCell.Tab.0.right" timestamp="1581700718696">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1581681115908" />
-    <state width="674" height="329" key="GridCell.Tab.1.bottom" timestamp="1581681115910">
+    <state width="758" height="329" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1581700718696" />
+    <state width="758" height="329" key="GridCell.Tab.1.bottom" timestamp="1581700718697">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.1.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581681115910" />
-    <state width="674" height="329" key="GridCell.Tab.1.center" timestamp="1581681115909">
+    <state width="758" height="329" key="GridCell.Tab.1.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581700718697" />
+    <state width="758" height="329" key="GridCell.Tab.1.center" timestamp="1581700718697">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.1.center/0.23.1680.991@0.23.1680.991" timestamp="1581681115909" />
-    <state width="674" height="329" key="GridCell.Tab.1.left" timestamp="1581681115909">
+    <state width="758" height="329" key="GridCell.Tab.1.center/0.23.1680.991@0.23.1680.991" timestamp="1581700718697" />
+    <state width="758" height="329" key="GridCell.Tab.1.left" timestamp="1581700718697">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.1.left/0.23.1680.991@0.23.1680.991" timestamp="1581681115909" />
-    <state width="674" height="329" key="GridCell.Tab.1.right" timestamp="1581681115909">
+    <state width="758" height="329" key="GridCell.Tab.1.left/0.23.1680.991@0.23.1680.991" timestamp="1581700718697" />
+    <state width="758" height="329" key="GridCell.Tab.1.right" timestamp="1581700718697">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="674" height="329" key="GridCell.Tab.1.right/0.23.1680.991@0.23.1680.991" timestamp="1581681115909" />
+    <state width="758" height="329" key="GridCell.Tab.1.right/0.23.1680.991@0.23.1680.991" timestamp="1581700718697" />
     <state x="271" y="155" key="SettingsEditor" timestamp="1581678176975">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
@@ -259,5 +250,16 @@
       <screen x="0" y="23" width="1680" height="991" />
     </state>
     <state x="84" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.23.1680.991@0.23.1680.991" timestamp="1579883686248" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/MergeSort.java</url>
+          <line>57</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
