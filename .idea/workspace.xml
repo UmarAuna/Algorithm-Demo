@@ -2,13 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b345e6a5-feeb-4659-a770-0a8e0542a6ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/Demo7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/hashtable_hashmap/HashTableDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/stack/StackDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/queue/QueueDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Images/TowerOfHanoi.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/BubbleSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/SelectionSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/tower_of_hanoi/Hanoi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/tower_of_hanoi/TowerofHanoi.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Demo5.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Demo5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/hashtable_hashmap/HashmapDemo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Print.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/Algorithms Examples/com/algorithm/Print.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/queue/Queue1$Queue2.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/queue/Queue1.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Algorithms Examples/queue/QueueDemo.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/com/algorithm/Print.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/Print.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/queue/QueueDemo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/com/algorithm/queue/QueueDemo.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -58,7 +63,7 @@
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/Images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -75,7 +80,20 @@
       <recent name="$PROJECT_DIR$/Images" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashTableDemo">
+  <component name="RunManager" selected="Application.SelectionSort">
+    <configuration name="BubbleSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.sorting_algorithm.BubbleSort" />
+      <module name="Algorithms Examples" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.algorithm.sorting_algorithm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Demo7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.algorithm.Demo7" />
       <module name="Algorithms Examples" />
@@ -102,12 +120,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="LinkedlistDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.linkedlist.LinkedlistDemo" />
+    <configuration name="SelectionSort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.sorting_algorithm.SelectionSort" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.algorithm.linkedlist.*" />
+          <option name="PATTERN" value="com.algorithm.sorting_algorithm.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -115,25 +133,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="QueueDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="queue.QueueDemo" />
+    <configuration name="TowerofHanoi" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.algorithm.tower_of_hanoi.TowerofHanoi" />
       <module name="Algorithms Examples" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="queue.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="StackDemo" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.algorithm.stack.StackDemo" />
-      <module name="Algorithms Examples" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.algorithm.stack.*" />
+          <option name="PATTERN" value="com.algorithm.tower_of_hanoi.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -142,19 +147,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.LinkedlistDemo" />
-      <item itemvalue="Application.StackDemo" />
-      <item itemvalue="Application.QueueDemo" />
       <item itemvalue="Application.Demo7" />
       <item itemvalue="Application.HashTableDemo" />
+      <item itemvalue="Application.TowerofHanoi" />
+      <item itemvalue="Application.BubbleSort" />
+      <item itemvalue="Application.SelectionSort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectionSort" />
+        <item itemvalue="Application.BubbleSort" />
+        <item itemvalue="Application.TowerofHanoi" />
         <item itemvalue="Application.HashTableDemo" />
         <item itemvalue="Application.Demo7" />
-        <item itemvalue="Application.QueueDemo" />
-        <item itemvalue="Application.StackDemo" />
-        <item itemvalue="Application.LinkedlistDemo" />
       </list>
     </recent_temporary>
   </component>
@@ -185,7 +190,8 @@
       <workItem from="1579620698915" duration="229000" />
       <workItem from="1579778237390" duration="26348000" />
       <workItem from="1580221392569" duration="15542000" />
-      <workItem from="1581584449877" duration="5320000" />
+      <workItem from="1581584449877" duration="13178000" />
+      <workItem from="1581674482592" duration="2893000" />
     </task>
     <servers />
   </component>
@@ -205,50 +211,50 @@
       <screen x="0" y="23" width="1680" height="991" />
     </state>
     <state x="223" y="23" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.23.1680.991@0.23.1680.991" timestamp="1581586970236" />
-    <state width="1126" height="223" key="GridCell.Tab.0.bottom" timestamp="1581604228474">
+    <state width="674" height="329" key="GridCell.Tab.0.bottom" timestamp="1581681115908">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581604228474" />
-    <state width="1126" height="223" key="GridCell.Tab.0.center" timestamp="1581604228472">
+    <state width="674" height="329" key="GridCell.Tab.0.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581681115908" />
+    <state width="674" height="329" key="GridCell.Tab.0.center" timestamp="1581681115907">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1581604228472" />
-    <state width="1126" height="223" key="GridCell.Tab.0.left" timestamp="1581604228471">
+    <state width="674" height="329" key="GridCell.Tab.0.center/0.23.1680.991@0.23.1680.991" timestamp="1581681115907" />
+    <state width="674" height="329" key="GridCell.Tab.0.left" timestamp="1581681115907">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1581604228471" />
-    <state width="1126" height="223" key="GridCell.Tab.0.right" timestamp="1581604228473">
+    <state width="674" height="329" key="GridCell.Tab.0.left/0.23.1680.991@0.23.1680.991" timestamp="1581681115907" />
+    <state width="674" height="329" key="GridCell.Tab.0.right" timestamp="1581681115908">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="223" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1581604228473" />
-    <state width="1126" height="217" key="GridCell.Tab.1.bottom" timestamp="1581587971376">
+    <state width="674" height="329" key="GridCell.Tab.0.right/0.23.1680.991@0.23.1680.991" timestamp="1581681115908" />
+    <state width="674" height="329" key="GridCell.Tab.1.bottom" timestamp="1581681115910">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="217" key="GridCell.Tab.1.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581587971376" />
-    <state width="1126" height="217" key="GridCell.Tab.1.center" timestamp="1581587971375">
+    <state width="674" height="329" key="GridCell.Tab.1.bottom/0.23.1680.991@0.23.1680.991" timestamp="1581681115910" />
+    <state width="674" height="329" key="GridCell.Tab.1.center" timestamp="1581681115909">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="217" key="GridCell.Tab.1.center/0.23.1680.991@0.23.1680.991" timestamp="1581587971375" />
-    <state width="1126" height="217" key="GridCell.Tab.1.left" timestamp="1581587971375">
+    <state width="674" height="329" key="GridCell.Tab.1.center/0.23.1680.991@0.23.1680.991" timestamp="1581681115909" />
+    <state width="674" height="329" key="GridCell.Tab.1.left" timestamp="1581681115909">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="217" key="GridCell.Tab.1.left/0.23.1680.991@0.23.1680.991" timestamp="1581587971375" />
-    <state width="1126" height="217" key="GridCell.Tab.1.right" timestamp="1581587971375">
+    <state width="674" height="329" key="GridCell.Tab.1.left/0.23.1680.991@0.23.1680.991" timestamp="1581681115909" />
+    <state width="674" height="329" key="GridCell.Tab.1.right" timestamp="1581681115909">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state width="1126" height="217" key="GridCell.Tab.1.right/0.23.1680.991@0.23.1680.991" timestamp="1581587971375" />
-    <state x="271" y="155" key="SettingsEditor" timestamp="1580364866026">
+    <state width="674" height="329" key="GridCell.Tab.1.right/0.23.1680.991@0.23.1680.991" timestamp="1581681115909" />
+    <state x="271" y="155" key="SettingsEditor" timestamp="1581678176975">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state x="271" y="155" key="SettingsEditor/0.23.1680.991@0.23.1680.991" timestamp="1580364866026" />
+    <state x="271" y="155" key="SettingsEditor/0.23.1680.991@0.23.1680.991" timestamp="1581678176975" />
     <state width="500" height="445" key="SwitcherDM" timestamp="1580327249386">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
     <state width="500" height="445" key="SwitcherDM/0.23.1680.991@0.23.1680.991" timestamp="1580327249386" />
-    <state x="519" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1581584450543">
+    <state x="519" y="351" key="com.intellij.ide.util.TipDialog" timestamp="1581677975018">
       <screen x="0" y="23" width="1680" height="991" />
     </state>
-    <state x="519" y="351" key="com.intellij.ide.util.TipDialog/0.23.1680.991@0.23.1680.991" timestamp="1581584450543" />
+    <state x="519" y="351" key="com.intellij.ide.util.TipDialog/0.23.1680.991@0.23.1680.991" timestamp="1581677975018" />
     <state x="84" y="338" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1579883686248">
       <screen x="0" y="23" width="1680" height="991" />
     </state>

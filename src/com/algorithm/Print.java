@@ -2,9 +2,14 @@ package com.algorithm;
 
 public class Print {
 
+    public void show(){
+        System.out.println();
+    }
+
     public void show(String item){
         System.out.println(item);
     }
+
 
     public void show(int item){
         System.out.println(item);

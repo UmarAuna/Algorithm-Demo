@@ -1,4 +1,4 @@
-package queue;
+package com.algorithm.queue;
 
 
 import java.util.Stack;
@@ -43,7 +43,7 @@ class Queue1{
             }
         }
 
-        // Dequeue an item from the queue
+        // Dequeue an item from the com.algorithm.queue
         static int deQueue(){
             // if first stack is empty
             if (s1.isEmpty()){
