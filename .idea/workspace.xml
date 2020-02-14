@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b345e6a5-feeb-4659-a770-0a8e0542a6ed" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/InsertionSort.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/MergeSort.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/com/algorithm/sorting_algorithm/QuickSort.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -182,7 +181,7 @@
       <workItem from="1579778237390" duration="26348000" />
       <workItem from="1580221392569" duration="15542000" />
       <workItem from="1581584449877" duration="13178000" />
-      <workItem from="1581674482592" duration="8340000" />
+      <workItem from="1581674482592" duration="8947000" />
     </task>
     <servers />
   </component>
